@@ -2,6 +2,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.position__carousel {
+    margin-top: 80px;
+}
+
 .imagem__principal {
     width: 55px; height: 55px;
 }
@@ -32,4 +36,30 @@ body {
 
 .box__div_color {
     background-color: rgb(230, 230, 230);
+}
+
+@media screen and (max-width: 767px) {
+    .div__imagem {
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    .box__position {
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width: 455px) {
+    .div__imagem_info {
+        width: 50%;
+    }
+    .tamanho__imagem_info {
+        width: 300px;
+    }
+    .tamanho__imagem {
+        width: 300px;
+    }
 }
